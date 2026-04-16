@@ -12,7 +12,40 @@
   --radius: 18px;
   --max: 1120px;
 }
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.45fr 0.8fr;
+  gap: 2rem;
+  align-items: start;
+}
 
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.position-block {
+  margin-top: 1rem;
+}
+
+.about-block {
+  margin-top: 1.5rem;
+}
+
+.profile-card {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 14px;
+  object-fit: cover;
+}
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
