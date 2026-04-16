@@ -1,16 +1,21 @@
-Custom-domain academic site based on content adapted from the Google Sites version.
+Website package created from the original single-page site.
 
-Files:
+Files included:
 - index.html
+- research.html
+- media.html
+- teaching.html
+- awards.html
+- experience.html
+- contact.html
 - style.css
+- script.js
 
-Suggested next edits:
-1. Add your exact official profile, SSRN, and Google Scholar URLs
-2. Add CV PDF link
-3. Add DOI or SSRN links for publications and working papers
-4. Add a professional headshot if desired
-5. Replace the placeholder note under Refereed Publications in Other Areas with full citations
+Before publishing:
+1. Put your real profile image in this folder and name it profile.jpg
+2. Put your CV PDF in this folder and name it cv.pdf
+3. Upload all files to your GitHub Pages repository
+4. Make sure index.html is in the root folder
 
-Deployment:
-- GitHub Pages or Cloudflare Pages
-- Point your custom domain to the hosting provider
+Note:
+- The media page still contains a generic entry that should be replaced if you have a better source label.
